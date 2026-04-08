@@ -48,3 +48,126 @@ main {
   color: #ff7500;
   border-bottom: 3px solid #ff7500;
 }
+.hyphen {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  margin-bottom: 40px;
+}
+.python {
+  width: 100%;
+  height: 488px;
+  background-color: #252420;
+}
+.ddd {
+  display: flex;
+  gap: 203px;
+}
+.sss {
+  padding-top: 85px;
+  width: 387px;
+  height: 328px;
+}
+.sarlavha {
+  font-size: 40px;
+  width: 700;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+.img1 {
+  transform: translateY(30px);
+}
+.qqq {
+  width: 100%;
+  height: 936px;
+}
+.fff {
+  padding-top: 237px;
+}
+.sarlavha2 {
+  width: 435px;
+  height: 172px;
+  font-size: 72px;
+  width: 700;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.img2 {
+  padding-bottom: 32px;
+}
+.ggg {
+  display: flex;
+  align-items: center;
+  margin-top: 72px;
+  gap: 40px;
+  margin-bottom: 210px;
+}
+.feature {
+  width: 340px;
+  height: 245px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.sarlavha3 {
+  width: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  padding-bottom: 12px;
+}
+.text3 {
+  width: 314px;
+  font-family: "Roboto", sans-serif;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  width: 400;
+}
+.nnn {
+  border-radius: 12px;
+  margin-top: 200px;
+  margin-bottom: 160px;
+  padding: 64px;
+  display: flex;
+  height: 419px;
+  gap: 92px;
+  color: white;
+  background-color: #252420;
+}
+.sarlavha4 {
+  width: 373px;
+  width: 700;
+  color: #ffffff;
+  font-size: 40px;
+
+  padding-bottom: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.text4 {
+  width: 440px;
+  width: 400;
+  color: #ffffff;
+  line-height: 150%;
+  padding-bottom: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.text5 {
+  width: 440px;
+  width: 400;
+  color: #ffffff;
+  line-height: 150%;
+  padding-bottom: 24px;
+  font-family: "Roboto", sans-serif;
+}
+.img5 {
+  transform: translateY(-150px);
+}
