@@ -171,3 +171,206 @@ main {
 .img5 {
   transform: translateY(-150px);
 }
+.footer {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo b {
+  color: #f39200;
+}
+
+.ttt a {
+  margin-left: 15px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.eee {
+  border: 0;
+  border-top: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.ppp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-column a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.menu-column a:hover {
+  color: #f39200;
+}
+.kitob {
+  color: #f39200;
+}
+.bar {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ddd {
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+  .ggg {
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+  .nnn {
+    gap: 30px;
+    padding: 40px;
+  }
+
+  .sarlavha2,
+  .text4,
+  .text5,
+  .text3 {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ddd {
+    gap: 50px;
+  }
+  .menu-a {
+    display: none;
+  }
+  .nnn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .python,
+  .qqq,
+  .nnn,
+  .sss,
+  .feature {
+    height: auto;
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .ddd,
+  .ggg,
+  .nnn,
+  .footer-header,
+  .ppp {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .menu {
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .menu a {
+    margin: 5px 0;
+  }
+
+  .ddd {
+    padding: 40px 20px;
+  }
+  .sss {
+    padding-top: 20px;
+  }
+  .sarlavha {
+    font-size: 30px;
+  }
+  .img1 {
+    transform: translateY(0);
+    max-width: 250px;
+  }
+
+  .fff {
+    padding-top: 50px;
+  }
+  .sarlavha2 {
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+  }
+  .feature {
+    padding: 20px;
+  }
+  .text3 {
+    width: 100%;
+  }
+
+  .nnn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+  }
+  .sarlavha4 {
+    font-size: 28px;
+    width: 100%;
+  }
+  .text4,
+  .text5 {
+    width: 100%;
+  }
+  .img5 {
+    transform: translateY(0);
+    max-width: 200px;
+  }
+  .bar {
+    display: flex;
+  }
+
+  .ppp {
+    gap: 40px;
+  }
+}
