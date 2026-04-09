@@ -275,6 +275,8 @@ main {
     display: none;
   }
   .nnn {
+    margin-right: 0 5px;
+    margin-left: 0 5px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 30px 20px;
@@ -283,7 +285,7 @@ main {
     text-align: center;
     gap: 30px;
     height: auto;
-    width: 100%;
+    width: calc(100% - 40px);
   }
 }
 
@@ -353,6 +355,7 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 30px 20px;
+    width: calc(100% - 20px);
   }
   .sarlavha4 {
     font-size: 28px;
